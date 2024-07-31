@@ -12,6 +12,7 @@ public class MyConnection {
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
+        System.out.println("Connection done successfully");
         return connection;
     }
     public static void closeConnection() {
